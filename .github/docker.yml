@@ -28,6 +28,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t kingu13/docker-test .
-          docker push kingu13/docker-test
+          docker build -t kingu13/nytt-test .
+          docker push kingu13/nytt-test
                 
